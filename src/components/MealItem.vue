@@ -9,10 +9,10 @@
     </router-link>
     <div class="p-3">
       <h3 class="font-bold">{{ meal.strMeal }}</h3>
-      <!-- <p class="mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p> -->
+      <p class="mb-4">
+        Click for exact recipe with ingredients and measures and the preparation
+        method. Click on the YouTube Button for video on preparation
+      </p>
       <div class="flex items-center justify-between">
         <YoutubeButton :href="meal.strYoutube"> YouTube </YoutubeButton>
       </div>
